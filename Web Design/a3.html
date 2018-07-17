@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<title> Fun Marine Biology Facts </title>
+
+	    <!-- Bootstrap -->
+   
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<header>
+<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+        <a class="navbar-brand" href="#">MarineBioFacts</a>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li class="dropdown">
+            	<a class="dropdown-toggle" data-toggle="dropdown" href="#">Learn More
+            	<span class="caret"></span></a>
+		        <ul class="dropdown-menu">
+		          <li><a href="#">About Us</a></li>
+		          <li><a href="#">Scholarships</a></li>
+		          <li><a href="#">Volunteering</a></li>
+		        </ul>
+                <li><a href="#programs">Programs</a></li>
+                <li><a href="#contact">Contact us</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+</header>
+	<main>
+		<div class="row">
+		  <div class="col-xs-6 col-lg-2">
+		  <div class="thumbnail">
+		        <img class = "img-responsive" id="myImg" src="octopus.jpg" alt="octopus">
+		        <div class="caption">
+		    </div>
+		    </div>
+		    </div>
+		  <div class="col-xs-6 col-lg-2">
+		  <div class="thumbnail">
+		        <img class = "img-responsive" src="shark.jpg" alt="shark">
+		        <div class="caption">
+		        </div>
+		        </div>
+		  </div>
+		  <div class="col-xs-6 col-lg-2">
+		      <div class="thumbnail">
+		        <img class = "img-responsive" src="manatee.jpg" alt="manatee">
+		        <div class="caption">
+		        </div>
+		        </div>
+		  </div>
+		  <div class="col-xs-6 col-lg-2">
+		      <div class="thumbnail">
+		        <img class = "img-responsive" src="clownfish.jpg" alt="clownfish.jpg">
+		        <div class="caption">
+		        </div>
+		        </div>
+		  </div>
+		  <div class="col-xs-6 col-lg-2">
+		      <div class="thumbnail">
+		        <img class = "img-responsive" src="dolphin.jpg" alt="dolphin">
+		        <div class="caption">
+		        </div>
+		        </div>
+		  </div>
+		  <div class="col-xs-6 col-lg-2" >
+		      <div class="thumbnail">
+		        <img class = "img-responsive" src="turtle.jpg" alt="turtle">
+		        <div class="caption">
+		    </div>
+		  </div>
+		  </div>
+		 </div>
+		 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Octopus</button>
+		 <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		        <div class="modal-body">
+		            <img src="octopus.jpg" class="img-responsive col-lg-12">
+		            <h4 class="modal-title">Octopus</h4>
+		            <button class="close" type="button" data-dismiss="modal">close</button>
+		        </div>
+		    </div>
+		  </div>
+		</div>
+
+		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal2">Shark</button>
+		<div id="myModal2" class="modal fade" tabindex="-2" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		        <div class="modal-body">
+		            <img src="shark.jpg" class="img-responsive col-lg-12">
+		            <h4 class="modal-title">Shark</h4>
+		            <button class="close" type="button" data-dismiss="modal">close</button>
+		        </div>
+		    </div>
+		  </div>
+		</div>
+
+		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal3">Manatee</button>
+		<div id="myModal3" class="modal fade" tabindex="-3" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		        <div class="modal-body">
+		            <img src="manatee.jpg" class="img-responsive  col-lg-12">
+		            <h4 class="modal-title">Manatee</h4>
+		            <button class="close" type="button" data-dismiss="modal">close</button>
+		        </div>
+		    </div>
+		  </div>
+		</div>
+
+		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal4">Clownfish</button>
+		<div id="myModal4" class="modal fade" tabindex="-4" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		        <div class="modal-body">
+		            <img src="clownfish.jpg" class="img-responsive  col-lg-12">
+		            <h4 class="modal-title">Clownfish</h4>
+		            <button class="close" type="button" data-dismiss="modal">close</button>
+		        </div>
+		    </div>
+		  </div>
+		</div>
+
+		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal5">Dolphin</button>
+		<div id="myModal5" class="modal fade" tabindex="-5" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		        <div class="modal-body">
+		            <img src="dolphin.jpg" class="img-responsive  col-lg-12">
+		            <h4 class="modal-title">Dolphin</h4>
+		            <button class="close" type="button" data-dismiss="modal">close</button>
+		        </div>
+		    </div>
+		  </div>
+		</div>
+
+		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal6">Sea Turtle</button>
+		<div id="myModal6" class="modal fade" tabindex="-6" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		        <div class="modal-body">
+		            <img src="turtle.jpg" class="img-responsive  col-lg-12">
+		            <h4 class="modal-title">Sea Turtle</h4>
+		            <button class="close" type="button" data-dismiss="modal">close</button>
+		        </div>
+		    </div>
+		  </div>
+		</div>
+
+
+		<br><br><br><br>
+		<div class="table-responsive">
+		<table class ="table">
+		<tr><th>Cephalopods</th> <th>Bony Fish</th> <th>Marine Mammals</th></tr>
+		<tr><td>Octopus</td><td>Clownfish</td><td>Dolphin</td></tr>
+		<tr><td>Cuttlefish</td><td>Tuna</td><td>Whale</td></tr>
+		<tr><td>Squid</td><td>Eel</td><td>Sea Turtle</td></tr>
+		</table></div><br><br><br><br>
+	</main>
+
+	<footer> 
+		<div class="row">
+		  <div class="col-xs-12 col-lg-6">
+		    <div class="thumbnail">
+		        <audio src="waves.mp3" controls>Ocean Waves Sounds </audio>
+		        <div class="caption">
+		        </div>
+		      </a>
+		    </div>
+		  </div>
+		  <div class="col-xs-12 col-lg-6">
+		    <div class="thumbnail">
+		        <img src="waves.jpg" alt="waves at the beach">
+		        <div class="caption">
+		        </div>
+		      </a>
+		    </div>
+		  </div>
+</footer>
+
+</body>
+
+</html>

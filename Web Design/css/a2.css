@@ -1,0 +1,35 @@
+header   {
+		background-color: green;
+		font-family: Arial;
+}
+h1   {
+		color: rgba(255,0,0,1);
+		font-family: Arial;
+		font-size: 3em;
+		text-transform: uppercase;
+}
+h2   {
+		color: rgba(255,0,0,1);
+		font-family: Arial;
+		font-size: 1em;
+}
+h3   {
+		color: rgba(255,0,0,1);
+		font-family: Arial;
+		font-size: 1em;
+}
+body {
+		font-family: Verdana;
+		font-size: 1em;
+}
+a:link {
+		background-color: blue;
+		color: rgba(255,255,255,1);
+}
+a:visited {
+		background-color: blue;
+		color: rgba(255,0,0,1);
+}
+footer {
+		background-color: blue;
+}
