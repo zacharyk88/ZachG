@@ -1,0 +1,30 @@
+	header   {
+		background-color: white;
+		font-family: Arial;
+	}
+	h1   {
+			color: black;
+			font-family: Arial;
+			font-size: 3em;
+			text-transform: uppercase;
+			text-align: center;
+	}
+	h2   {
+			color: black;
+			font-family: Arial;
+			font-size: 2em;
+			text-align: center;
+	}
+	h3   {
+			color: black;
+			font-family: Arial;
+			font-size: 1em;
+	}
+	body {
+			font-family: Verdana;
+			font-size: 1em;
+	}
+	footer {
+			background-color: blue;
+			color: white;
+	}
